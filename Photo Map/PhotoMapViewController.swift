@@ -45,10 +45,16 @@ class PhotoMapViewController: UIViewController, UIImagePickerControllerDelegate,
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        let imagepicker = UIImagePickerController()
-        imagepicker.delegate = self
-        imagepicker.sourceType = .camera
-        self.present(imagepicker, animated: true)
+      
+        _ = info[UIImagePickerControllerOriginalImage] as! UIImage
+        let editedImage = info[UIImagePickerControllerEditedImage] as! UIImage
+        
+        self.image = editedImage
+        
+        dismiss(animated: true) {
+            self.performSegue(withIdentifier: "tagSegue", sender: nil)
+        }
+        
         
     }
     
