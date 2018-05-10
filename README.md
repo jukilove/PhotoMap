@@ -9,9 +9,9 @@ Time spent: **X** hours spent in total
 The following **required** user stories are complete:
 
 - [x] User can view a map (+2pt)
-- [ ] User can take a photo (+1pt)
-- [ ] User can tag a location (+1pt)
-- [ ] User can drop a pin with image annotation (+1pt)
+- [x] User can take a photo (+1pt)
+- [x] User can tag a location (+1pt)
+- [x] User can drop a pin with image annotation (+1pt)
 
 The following **stretch** user stories are implemented:
 
@@ -29,7 +29,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/sRp4g2I.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
